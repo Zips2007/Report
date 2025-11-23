@@ -1,0 +1,69 @@
+\documentclass[12pt]{article}
+
+\usepackage{baocao}
+
+\setlength{\parindent}{0pt}
+
+\renewcommand{\baselinestretch}{1.5}
+
+\newcommand{\coursename}{Nhập môn Công nghệ thông tin}
+\newcommand{\reportname}{Developing a startup website}
+\newcommand{\reporttitle}{Báo cáo Project 1}
+
+\newcommand{\studentname}{
+\text{Trần Lan Tường - 25127250} \\ 
+\text{Lê Khánh Trình - 25127160} \\ 
+\text{Trần Hoàng Khang - 25127372} \\ 
+\text{Ngô Diệp Gia Phúc - 25127118}
+} 
+\newcommand{\teachername}{
+\text{ThS. Lê Nhựt Nam} \\ 
+\text{HVCH, CN. Nguyễn Thanh Tình}
+}
+
+\lhead{\reporttitle}
+\rhead{
+Trường Đại học Khoa học Tự nhiên - ĐHQG HCM\\
+\coursename
+}
+
+% ============ DOCUMENT ============
+\begin{document}
+\input{content/title.tex}
+
+\fancyfoot[R]{}
+\tableofcontents
+\pagebreak
+
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\fancyfoot[R]{Trang \thepage}
+
+\newpage
+\input{content/gioithieu}
+
+\newpage
+\input{content/congcuphuongphap}
+
+\newpage
+\input{content/quytrinh}
+
+\newpage
+\input{content/phanchia}
+
+\newpage
+\input{content/linkweb}
+
+\newpage
+\input{content/thietke}
+
+\newpage
+\input{content/danhgia}
+
+\newpage
+\input{content/huongphattrien}
+
+\newpage
+\input{content/tailieu}
+
+\end{document}
